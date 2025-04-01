@@ -141,15 +141,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPinIcon className="mr-3 h-5 w-5 mt-1" />
-                <span>DevMani Towers, 123 Financial District, Mumbai - 400001</span>
+                <span>109/110, Horniman Circle Chamber, 1ST Floor, S.A.Brelvi Road, Fort, Mumbai – 400 001</span>
               </li>
               <li className="flex items-start">
                 <PhoneIcon className="mr-3 h-5 w-5 mt-1" />
-                <span>+91 1234567890</span>
+                <span>022 42134213</span>
               </li>
               <li className="flex items-start">
                 <MailIcon className="mr-3 h-5 w-5 mt-1" />
-                <span>info@devmanitraders.com</span>
+                <span>Devmanitraders08@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <ClockIcon className="mr-3 h-5 w-5 mt-1" />

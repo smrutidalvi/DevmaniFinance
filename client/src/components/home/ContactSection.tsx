@@ -117,8 +117,9 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-bold mb-1">Office Address</h4>
                   <p className="text-neutral-600">
-                    DevMani Towers, 123 Financial District,<br />
-                    Mumbai - 400001, Maharashtra, India
+                    DEVMANI TRADERS PRIVATE LIMITED<br />
+                    109/110, Horniman Circle Chamber, 1ST Floor,<br />
+                    S.A.Brelvi Road, Fort, Mumbai – 400 001
                   </p>
                 </div>
               </div>
@@ -129,8 +130,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Phone Number</h4>
-                  <p className="text-neutral-600">+91 1234567890</p>
-                  <p className="text-neutral-600">+91 9876543210 (Toll Free)</p>
+                  <p className="text-neutral-600">022 42134213</p>
                 </div>
               </div>
               
@@ -140,8 +140,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold mb-1">Email Address</h4>
-                  <p className="text-neutral-600">info@devmanitraders.com</p>
-                  <p className="text-neutral-600">support@devmanitraders.com</p>
+                  <p className="text-neutral-600">Devmanitraders08@gmail.com</p>
                 </div>
               </div>
               
