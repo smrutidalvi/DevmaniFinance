@@ -8,6 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown, Menu, X } from "lucide-react";
+import devmaniLogo from "../../assets/devmani-logo.jpg";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,9 +28,12 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <Link href="/">
-              <div className="font-serif font-bold text-2xl text-primary cursor-pointer">
-                <span>DevMani</span>
-                <span className="text-secondary">Traders</span>
+              <div className="cursor-pointer">
+                <img 
+                  src={devmaniLogo} 
+                  alt="DevMani Traders Pvt Ltd" 
+                  className="h-12 w-auto" 
+                />
               </div>
             </Link>
             <div className="hidden md:block text-xs bg-[#FFB81C] text-primary px-2 py-1 rounded-md">
