@@ -149,7 +149,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <MailIcon className="mr-3 h-5 w-5 mt-1" />
-                <span>Devmanitraders08@gmail.com</span>
+                <span>contactus@devmanitraders.com</span>
               </li>
               <li className="flex items-start">
                 <ClockIcon className="mr-3 h-5 w-5 mt-1" />
