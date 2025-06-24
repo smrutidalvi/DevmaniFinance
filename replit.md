@@ -120,6 +120,7 @@ The application uses a simple contact message system:
 - Updated header logo with official DevMani Traders branding
 - Fixed contact navigation to scroll directly to contact section
 - Modified grid layout to display 6 products in 3-column responsive design
+- Removed Client Testimonials section from homepage for cleaner layout
 
 ## Changelog
 
