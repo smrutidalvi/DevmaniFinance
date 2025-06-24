@@ -52,24 +52,34 @@ const Header = () => {
                 Services <ChevronDown size={14} />
               </DropdownMenuTrigger>
               <DropdownMenuContent className="w-64">
-                <Link href="/services/broking">
+                <Link href="/services/futures-options">
                   <DropdownMenuItem className="cursor-pointer py-2">
-                    Broking Services
+                    Futures and Options Trading
                   </DropdownMenuItem>
                 </Link>
-                <Link href="/services/wealth">
+                <Link href="/services/ipos">
                   <DropdownMenuItem className="cursor-pointer py-2">
-                    Wealth Management
-                  </DropdownMenuItem>
-                </Link>
-                <Link href="/services/research">
-                  <DropdownMenuItem className="cursor-pointer py-2">
-                    Equity Research
+                    IPOs
                   </DropdownMenuItem>
                 </Link>
                 <Link href="/services/mutualfunds">
                   <DropdownMenuItem className="cursor-pointer py-2">
                     Mutual Funds
+                  </DropdownMenuItem>
+                </Link>
+                <Link href="/services/fixed-deposit">
+                  <DropdownMenuItem className="cursor-pointer py-2">
+                    Fixed Deposit
+                  </DropdownMenuItem>
+                </Link>
+                <Link href="/services/insurance">
+                  <DropdownMenuItem className="cursor-pointer py-2">
+                    Insurance
+                  </DropdownMenuItem>
+                </Link>
+                <Link href="/services/bonds">
+                  <DropdownMenuItem className="cursor-pointer py-2">
+                    Bonds
                   </DropdownMenuItem>
                 </Link>
               </DropdownMenuContent>
@@ -79,9 +89,7 @@ const Header = () => {
               <a className="text-primary hover:text-secondary font-medium">About Us</a>
             </Link>
             
-            <Link href="/#contact">
-              <a className="text-primary hover:text-secondary font-medium">Contact</a>
-            </Link>
+            <a href="#contact" className="text-primary hover:text-secondary font-medium">Contact</a>
           </nav>
           
           <div className="hidden lg:block">
@@ -117,17 +125,23 @@ const Header = () => {
               
               {servicesSubmenuOpen && (
                 <div className="mt-2 pl-4">
-                  <Link href="/services/broking">
-                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Broking Services</a>
+                  <Link href="/services/futures-options">
+                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Futures and Options Trading</a>
                   </Link>
-                  <Link href="/services/wealth">
-                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Wealth Management</a>
-                  </Link>
-                  <Link href="/services/research">
-                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Equity Research</a>
+                  <Link href="/services/ipos">
+                    <a className="block py-2 hover:bg-neutral-200 rounded-md">IPOs</a>
                   </Link>
                   <Link href="/services/mutualfunds">
                     <a className="block py-2 hover:bg-neutral-200 rounded-md">Mutual Funds</a>
+                  </Link>
+                  <Link href="/services/fixed-deposit">
+                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Fixed Deposit</a>
+                  </Link>
+                  <Link href="/services/insurance">
+                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Insurance</a>
+                  </Link>
+                  <Link href="/services/bonds">
+                    <a className="block py-2 hover:bg-neutral-200 rounded-md">Bonds</a>
                   </Link>
                 </div>
               )}
@@ -137,9 +151,7 @@ const Header = () => {
               <a className="block py-2 px-4 font-medium hover:bg-neutral-200 rounded-md">About Us</a>
             </Link>
             
-            <Link href="/#contact">
-              <a className="block py-2 px-4 font-medium hover:bg-neutral-200 rounded-md">Contact</a>
-            </Link>
+            <a href="#contact" className="block py-2 px-4 font-medium hover:bg-neutral-200 rounded-md">Contact</a>
             
             <Link href="/#contact">
               <a className="block py-2 px-4 mt-2 bg-primary text-white text-center rounded-md">Get Started</a>

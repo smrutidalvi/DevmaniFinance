@@ -44,23 +44,16 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Our Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/services/broking">
+                <Link href="/services/futures-options">
                   <a className="text-neutral-300 hover:text-[#FFB81C] transition duration-300">
-                    Broking Services
+                    Futures and Options Trading
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/services/wealth">
+                <Link href="/services/ipos">
                   <a className="text-neutral-300 hover:text-[#FFB81C] transition duration-300">
-                    Wealth Management
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/research">
-                  <a className="text-neutral-300 hover:text-[#FFB81C] transition duration-300">
-                    Equity Research
+                    IPOs
                   </a>
                 </Link>
               </li>
@@ -72,16 +65,23 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services/financial-planning">
+                <Link href="/services/fixed-deposit">
                   <a className="text-neutral-300 hover:text-[#FFB81C] transition duration-300">
-                    Financial Planning
+                    Fixed Deposit
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/services/tax-planning">
+                <Link href="/services/insurance">
                   <a className="text-neutral-300 hover:text-[#FFB81C] transition duration-300">
-                    Tax Planning
+                    Insurance
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/bonds">
+                  <a className="text-neutral-300 hover:text-[#FFB81C] transition duration-300">
+                    Bonds
                   </a>
                 </Link>
               </li>

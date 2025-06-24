@@ -1,40 +1,29 @@
 import { Link } from "wouter";
 import { Card, CardContent } from "@/components/ui/card";
-import { ChartBarIcon, WalletIcon, SearchDollarIcon, HandHoldingUsdIcon } from "@/components/ui/icons";
-import { ArrowRight, Check } from "lucide-react";
+import { ChartBarIcon, WalletIcon, SearchDollarIcon, HandHoldingUsdIcon, ShieldIcon, TrendingUpIcon } from "@/components/ui/icons";
+import { ArrowRight, Check, Building2, PiggyBank } from "lucide-react";
 
 const services = [
   {
-    id: "broking",
-    title: "Broking Services",
-    description: "Trade in equities, derivatives, and commodities with our advanced platforms and competitive brokerage rates.",
+    id: "futures-options",
+    title: "Futures and Options Trading",
+    description: "Advanced derivative trading with comprehensive tools and strategies for sophisticated investors.",
     icon: ChartBarIcon,
     features: [
-      "Equity & Derivatives",
-      "Commodities Trading",
-      "Currency Futures"
+      "F&O Trading Platform",
+      "Risk Management Tools",
+      "Strategy Advisory"
     ]
   },
   {
-    id: "wealth",
-    title: "Wealth Management",
-    description: "Personalized wealth management strategies to help you achieve your financial goals and secure your future.",
-    icon: WalletIcon,
+    id: "ipos",
+    title: "IPOs",
+    description: "Get early access to Initial Public Offerings with expert guidance on new investment opportunities.",
+    icon: TrendingUpIcon,
     features: [
-      "Financial Planning",
-      "Portfolio Management",
-      "Retirement Planning"
-    ]
-  },
-  {
-    id: "research",
-    title: "Equity Research",
-    description: "In-depth analysis and research reports to help you make informed investment decisions.",
-    icon: SearchDollarIcon,
-    features: [
-      "Stock Recommendations",
-      "Market Analysis",
-      "Sector Reports"
+      "IPO Applications",
+      "Research & Analysis", 
+      "Allocation Support"
     ]
   },
   {
@@ -47,6 +36,39 @@ const services = [
       "Tax-saving ELSS",
       "Fund Performance Analysis"
     ]
+  },
+  {
+    id: "fixed-deposit",
+    title: "Fixed Deposit",
+    description: "Secure your savings with competitive interest rates and flexible tenure options.",
+    icon: PiggyBank,
+    features: [
+      "Competitive Rates",
+      "Flexible Tenure",
+      "Easy Online Process"
+    ]
+  },
+  {
+    id: "insurance",
+    title: "Insurance",
+    description: "Comprehensive insurance solutions to protect your family and financial future.",
+    icon: ShieldIcon,
+    features: [
+      "Life Insurance",
+      "Health Insurance",
+      "Investment Plans"
+    ]
+  },
+  {
+    id: "bonds",
+    title: "Bonds",
+    description: "Invest in government and corporate bonds for steady income and portfolio diversification.",
+    icon: Building2,
+    features: [
+      "Government Bonds",
+      "Corporate Bonds",
+      "Tax-free Bonds"
+    ]
   }
 ];
 
@@ -56,14 +78,14 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-serif font-bold text-primary mb-4">
-            Our Financial Services
+            Our Financial Products
           </h2>
           <p className="max-w-3xl mx-auto text-neutral-600">
-            Comprehensive financial solutions tailored to your investment goals and risk appetite.
+            Comprehensive financial products tailored to your investment goals and risk appetite.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <Card 
               key={service.id}
